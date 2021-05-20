@@ -16,9 +16,9 @@ void Draw::draw(SDL_Renderer *Renderer) {
     SDL_SetRenderDrawColor(Renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);
 
     // Drawing the lines we want. (-1, 0), (0, 1), (1, 0)
-    SDL_RenderDrawLine(Renderer, 0, 480, 320, 0);
-    SDL_RenderDrawLine(Renderer, 640, 480, 320, 0);
-    SDL_RenderDrawLine(Renderer, 0, 480, 640, 480);
+    SDL_RenderDrawLine(Renderer, 0, 280, 120, 0);
+    SDL_RenderDrawLine(Renderer, 440, 280, 120, 0);
+    SDL_RenderDrawLine(Renderer, 0, 280, 440, 280);
 
     // Update the Renderer.
     SDL_RenderPresent(Renderer);
