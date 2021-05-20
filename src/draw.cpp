@@ -50,6 +50,6 @@ void Draw::drawRandomPixels() {
 
 void Draw::init() {
     SDL_Init(SDL_INIT_VIDEO);
-    SDL_CreateWindowAndRenderer(720, 720, 0, &window, &renderer);
-    surface = SDL_CreateRGBSurface(0, 720, 720, 32, 0, 0, 0, 0);
+    SDL_CreateWindowAndRenderer(512, 512, 0, &window, &renderer);
+    surface = SDL_CreateRGBSurface(0, 512, 512, 32, 0, 0, 0, 0);
 }
