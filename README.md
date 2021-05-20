@@ -1,7 +1,6 @@
-# Geta Studios Minigames Engine WASM
+# WebAssembly-SDL-Engine
 
-The aim of this project is to be able to speed up the development process of the games that will be
-deployed in `WebAssembly`.
+The idea of this project is to make an Engine to render or make games with SDL 2 for `WebAssembly`.
 
 ## Project structure
 
